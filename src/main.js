@@ -7,7 +7,7 @@ if (true) {
 
 /* eslint-enable */
 
-function hello(a, b) {
+function sum(a, b) {
   return a + b;
 }
-hello(3, 4);
+sum(3, 4);
