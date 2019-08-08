@@ -1,4 +1,16 @@
-function sum(a, b) {
-  return a + b;
+/*
+//BAD CODE :)
+var count = 1;
+if (true) {
+  count += 1;
 }
-sum(3, 4);
+*/
+
+const sum = (a, b) => {
+  const c = a + b;
+  return c;
+};
+
+const helloWorld = () => 'Hello world';
+
+export { sum, helloWorld };

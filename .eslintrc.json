@@ -1,11 +1,17 @@
 {
-  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": ["jest"],
+  "extends": ["airbnb-base", "plugin:prettier/recommended", "plugin:jest/all"],
+  "parser": "babel-eslint",
   "rules": {
     "prettier/prettier": "error"
   },
-  "overrides": [
-    {
-      "files": ["*.test.js"]
-    }
-  ]
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
 }
