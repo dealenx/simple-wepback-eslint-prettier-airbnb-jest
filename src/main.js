@@ -7,7 +7,7 @@ if (true) {
 
 /* eslint-enable */
 
-function hello() {
-  return 0;
+function hello(a, b) {
+  return a + b;
 }
-hello();
+hello(3, 4);
