@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"]
+    }
+  ]
+}
